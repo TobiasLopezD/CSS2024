@@ -1,0 +1,148 @@
+*{
+
+padding: 0;
+margin:0;
+box-sizing: border-box;
+
+}
+
+html{
+    background-image: radial-gradient(circle at 55.73% 28.63%, #baffea 0, #a6ffea 12.5%, #8bffe7 25%, #64ffe0 37.5%, #0cedd6 50%, #00dbcd 62.5%, #00ccca 75%, #00c2ca 87.5%, #00bbce 100%);
+
+
+}
+
+body{
+
+    width: 90%;
+    height: 1000px;
+    margin: 15px auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+    
+
+
+}
+
+.logo{
+    float: left;
+
+
+}
+
+.limpiar{
+    clear: both;
+}
+
+.logo img{
+    width: 100px;
+    position: sticky;
+
+}
+
+nav{
+    float: right;
+
+
+}
+
+nav ul{
+    list-style: none;
+
+
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer{
+    width: 90%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    bottom: 0;
+    position: fixed;
+}
+
+main{
+    padding: 20px;
+
+
+}
+
+#float-clear{
+
+
+}
+.separador {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px 0;
+    clear: both;
+}
+.seccion {
+    background-image: radial-gradient(circle at 55.73% 28.63%, #ffff7c 0, #fff062 16.67%, #ffd641 33.33%, #edb90c 50%, #da9c00 66.67%, #cc8300 83.33%, #c26d00 100%);;
+}
+.subtitulo {
+    font-size: 1.5em;
+}
+.parrafo {
+    font-size: 1.2em;
+}
+
+
+
+.lista{
+    list-style: none;
+
+
+}
+
+.listaroja{
+    list-style: circle;
+
+}
+
+main ul li{
+    display: block;
+    margin-bottom: 15px;
+
+
+}
+main ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+main ul li a:hover{
+    
+    color: aqua;
+}
+
+
+
+
